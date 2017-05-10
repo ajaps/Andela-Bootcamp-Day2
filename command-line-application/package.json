@@ -1,0 +1,27 @@
+{
+  "name": "command-line-aplication",
+  "version": "1.0.0",
+  "description": "A comman line application that consumes a public api",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/framky007/Andela-Bootcamp-Day2.git"
+  },
+  "author": "Ajaps Franklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/framky007/Andela-Bootcamp-Day2/issues"
+  },
+  "homepage": "https://github.com/framky007/Andela-Bootcamp-Day2#readme",
+  "dependencies": {
+    "https": "^1.0.0",
+    "readline-sync": "^1.4.7"
+  }
+}
