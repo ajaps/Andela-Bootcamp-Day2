@@ -1,0 +1,25 @@
+{
+  "name": "word-frequency",
+  "version": "1.0.0",
+  "description": "A program that displays words in an object based on its frequency of occurence",
+  "main": "app/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/framky007/Andela-Bootcamp-Day2.git"
+  },
+  "author": "",
+  "license": "ISC",
+    "dependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/framky007/Andela-Bootcamp-Day2/issues"
+  },
+  "homepage": "https://github.com/framky007/Andela-Bootcamp-Day2#readme"
+}
