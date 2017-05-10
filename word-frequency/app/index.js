@@ -9,9 +9,13 @@ function words(stringAugument){
   let wordArray = stringAugument.split(' ');
   let wordFrequecy ={}
 
+  //wordFrequecy.toString =null;
   //loop through the array and asign numbers against the words based on their frequecy 
   for(eachWord in wordArray){
     theWord = wordArray[eachWord];
+    if(theWord ==='toString'){
+      wordFrequecy.toString =null;
+    }
     if(theWord in wordFrequecy){
       wordFrequecy[theWord] = wordFrequecy[theWord] + 1;
     }
@@ -21,7 +25,6 @@ function words(stringAugument){
   }
   return wordFrequecy;
 }
-
 
 
 module.exports = {
