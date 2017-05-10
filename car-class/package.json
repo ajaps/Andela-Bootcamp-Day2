@@ -1,0 +1,26 @@
+{
+  "name": "car-class",
+  "version": "1.0.0",
+  "description": "An application that models a car using OOP principles",
+  "main": "app/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+	"start": "app/index.js",
+    "test": " jasmine test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/framky007/Andela-Bootcamp-Day2.git"
+  },
+  "author": "Ajaps Franklin",
+  "license": "ISC",
+    "dependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/framky007/Andela-Bootcamp-Day2/issues"
+  },
+  "homepage": "https://github.com/framky007/Andela-Bootcamp-Day2#readme"
+}
