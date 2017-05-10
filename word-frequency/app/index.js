@@ -14,7 +14,7 @@ function words(stringAugument){
   for(eachWord in wordArray){
     theWord = wordArray[eachWord];
     if(theWord ==='toString'){
-      wordFrequecy.toString =null;
+      wordFrequecy.toString = null;
     }
     if(theWord in wordFrequecy){
       wordFrequecy[theWord] = wordFrequecy[theWord] + 1;
